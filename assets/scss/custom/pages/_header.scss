@@ -1,0 +1,98 @@
+header {
+    height:em(93);
+    width:100%;
+    position:relative;
+    border-bottom: 1px solid #E11837;
+    .container {
+        display:flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        height:100%;
+    }
+    .logo-wrap {
+        padding-top:em(35);
+        padding-left:em(33);
+        a {
+            display:block;
+            width:em(166);
+            img {
+                width:100%;
+            }
+        }
+    }
+
+    ul {
+        display:flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin:0;
+        padding:0;
+        height:100%;
+        li {
+            height:100%;
+            a {
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                color:#252932;
+                font-size:em(14);
+                font-weight:600;
+                height:100%;
+                span {
+                    margin-right:em(10, 16)
+                }
+                &:hover {
+                    text-decoration: none;
+                    color:#252932;
+                }
+            }
+        }
+    }
+
+    .top-nav {
+        height:em(33);
+        display:flex;
+        align-items: center;
+        justify-content: flex-end;
+        ul {
+            li {
+                a {
+                    padding:0 em(19, 16);
+                    height:100%;
+                    transition:background 0.3s ease, border 0.3s ease;
+                    border-bottom: 1px solid #E11837;
+                    &.active, &:hover {
+                        background-color:#A5BB29;
+                        border-bottom:1px solid #A5BB29;
+                    }
+                }
+            }
+        }
+    }
+    
+    .menu {
+        height:em(60);
+        display:flex;
+        align-items: center;
+        justify-content: flex-end;
+        ul {
+            li {
+                a {
+                    padding:0 em(20, 16);
+                    transition:color 0.3s ease;
+                    .search-fill {
+                        transition:fill 0.3s ease;
+                    }
+                    &:hover {
+                        color:#E11837;
+
+                        .search-fill {
+                            fill:#E11837;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

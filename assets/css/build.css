@@ -10463,8 +10463,8 @@ body {
   color: #fff;
   background-color: #fff;
 }
-body .site-content {
-  font-size: 16px;
+body .main {
+  font-size: 1.111vw;
 }
 
 .section {
@@ -10472,45 +10472,39 @@ body .site-content {
   z-index: 1;
 }
 
+.container {
+  max-width: 90em;
+  margin: 0 auto;
+}
+
 h1 {
-  font-size: 3.5em;
-  line-height: 1.125;
-  color: #fff;
-  margin-bottom: 0.625em;
-  font-weight: 200;
+  font-size: 3em;
+  line-height: 1.2;
+  font-weight: 700;
 }
 
 h2 {
-  font-size: 3em;
-  line-height: 1.107;
-  color: #fff;
-  margin-bottom: 0.625em;
-  font-weight: 200;
+  font-size: 2.75em;
+  line-height: 1.18;
+  font-weight: 300;
 }
 
 h3 {
-  font-size: 1.25em;
-  line-height: 1.5;
-  margin-bottom: 1.5em;
-  font-weight: 700;
-  font-style: italic;
-  color: #D8D8D8;
+  font-size: 2.1875em;
+  line-height: 1.2;
+  font-weight: 300;
 }
 
 h4 {
-  font-size: 1.25em;
-  line-height: 1.201;
-  color: #66542F;
-  margin-bottom: 0.75em;
-  font-weight: 700;
+  font-size: 1.75em;
+  line-height: 1.25;
+  font-weight: 300;
 }
 
 p {
-  font-size: 1.25em;
-  line-height: 1.8;
-  color: #D8D8D8;
-  font-weight: 400;
-  margin-bottom: 1.5em;
+  font-size: 1em;
+  line-height: 1.3;
+  font-weight: 300;
 }
 
 b, strong {
@@ -10532,5 +10526,127 @@ a:active, a:focus, a:hover, img:active, img:focus, img:hover, button:active, but
 .gradient-2 {
   background: -o-linear-gradient(225deg, #E11837 0%, #B30E27 100%);
   background: linear-gradient(225deg, #E11837 0%, #B30E27 100%);
+}
+
+header {
+  height: 5.8125em;
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #E11837;
+}
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+header .logo-wrap {
+  padding-top: 2.1875em;
+  padding-left: 2.0625em;
+}
+header .logo-wrap a {
+  display: block;
+  width: 10.375em;
+}
+header .logo-wrap a img {
+  width: 100%;
+}
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+header ul li {
+  height: 100%;
+}
+header ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #252932;
+  font-size: 0.875em;
+  font-weight: 600;
+  height: 100%;
+}
+header ul li a span {
+  margin-right: 0.625em;
+}
+header ul li a:hover {
+  text-decoration: none;
+  color: #252932;
+}
+header .top-nav {
+  height: 2.0625em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+header .top-nav ul li a {
+  padding: 0 1.1875em;
+  height: 100%;
+  -webkit-transition: background 0.3s ease, border 0.3s ease;
+  -o-transition: background 0.3s ease, border 0.3s ease;
+  transition: background 0.3s ease, border 0.3s ease;
+  border-bottom: 1px solid #E11837;
+}
+header .top-nav ul li a.active, header .top-nav ul li a:hover {
+  background-color: #A5BB29;
+  border-bottom: 1px solid #A5BB29;
+}
+header .menu {
+  height: 3.75em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+header .menu ul li a {
+  padding: 0 1.25em;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+header .menu ul li a .search-fill {
+  -webkit-transition: fill 0.3s ease;
+  -o-transition: fill 0.3s ease;
+  transition: fill 0.3s ease;
+}
+header .menu ul li a:hover {
+  color: #E11837;
+}
+header .menu ul li a:hover .search-fill {
+  fill: #E11837;
 }
 /*# sourceMappingURL=build.css.map */
