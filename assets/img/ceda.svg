@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="14px" viewBox="0 0 11 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/CEDA</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About" transform="translate(-935.000000, -10.000000)">
+            <g id="Icon/CEDA" transform="translate(934.999999, 10.000000)">
+                <path d="M0,0 L11,0 L11,14 L0,14 L0,0 Z" id="Icon/CEDA-(Background)" transform="translate(5.500000, 7.000000) rotate(179.999995) translate(-5.500000, -7.000000) "></path>
+                <path d="M1.81321333e-07,9.07407455 L-1.35990968e-07,5.44444493 L11.0000003,10.3703699 L11.0000006,13.9999995 L1.81321333e-07,9.07407455 Z M0.252873359,4.66666713 L10.9999994,-4.80825246e-07 L10.9999997,3.88888841 L4.55172409,6.48148156 L0.252873359,4.66666713 Z" id="Ceda-Icon" fill="#252932"></path>
+            </g>
+        </g>
+    </g>
+</svg>

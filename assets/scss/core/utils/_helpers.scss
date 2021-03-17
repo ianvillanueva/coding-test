@@ -1,0 +1,157 @@
+.table{
+  display: table;
+
+  &-full{
+    width: 100%;
+    height: 100%;
+    min-height: inherit;
+    position: relative;
+
+    &:after{
+      content:"";
+      display: table;
+    }
+  }
+}
+.table-row{
+  display: table-row;
+}
+.table-cell{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.align-center{
+  text-align: center;
+}
+.align-left{
+  text-align: left;
+}
+.align-right{
+  text-align: right;
+}
+
+.v-align-top{
+  vertical-align: top;
+}
+.v-align-middle{
+  vertical-align: middle;
+}
+.v-align-bottom{
+  vertical-align: bottom;
+}
+
+.clearfix {
+    overflow: hidden;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.float-left{
+  float: left;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+.float-right{
+  float: right;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.inline{
+  display: inline;
+}
+.inline-block{
+  display: inline-block;
+}
+.block{
+  display: block;
+}
+
+ul.inline-block-group{
+
+  list-style: none;
+  padding-left: initial;
+
+  li{
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.case-upper{
+  text-transform: uppercase;
+}
+.case-lower{
+  text-transform: lowercase;
+}
+.case-proper{
+  text-transform: capitalize;
+}
+
+.m-auto{
+  margin: auto;
+}
+
+.img-responsive{
+  width: 100%;
+  height: auto;
+}
+
+.center-block{
+  display: block;
+  margin: 0 auto;
+}
+
+.bp-rel{
+  position: relative;
+}
+.o-hidden{
+  overflow: hidden;
+}
+.hidden{
+  display: none;
+}
+.w100{
+  width: 100%;
+}
+.h100{
+  height: 100%;
+}
+.relative{
+  position: relative;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.mobile-only{
+  display: block;
+
+  @include breakpoint(tablet){
+    display: none;
+  }
+}
+
+.tablet-up{
+  display: none;
+
+  @include breakpoint(tablet){
+    display: inline;
+  }
+}
+
+.overflow-hidden{
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.italic {
+  font-style: italic;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Social Facebook</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About" transform="translate(-961.000000, -4428.000000)" fill="#FFFFFF">
+            <g id="Desktop/Footer" transform="translate(0.000000, 3574.000000)">
+                <g id="Icon/Social-Facebook" transform="translate(961.000000, 854.000000)">
+                    <path d="M0,0 L24,0 L24,24 L0,24 L0,0 Z" id="Rectangle-451" fill-opacity="0"></path>
+                    <path d="M13.2722534,11.9810734 L13.2722534,18.9510107 L10.3765074,18.9510107 C10.3765074,16.4120867 10.3765074,14.0887743 10.3765074,11.9810734 L9,11.9810734 L9,9.51767775 L10.3765074,9.51767775 L10.3765074,7.92431391 C10.3765074,6.78315366 10.9184013,5 13.298864,5 L15.4446672,5.00823068 L15.4446672,7.39948664 C14.5753792,7.39948664 14.0562255,7.39948664 13.8872062,7.39948664 C13.6336773,7.39948664 13.2732211,7.52633598 13.2732211,8.07052947 L13.2732211,9.51816195 L15.4795036,9.51816195 L15.2264581,11.9810734 L13.2722534,11.9810734 Z" id="Mask" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
