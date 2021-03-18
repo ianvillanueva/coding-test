@@ -5,6 +5,7 @@
   
 	Custom.prototype.init = function() {
         Custom.prototype.inView();
+        Custom.prototype.accordion()
         Custom.prototype.carousel();
 	};
 
@@ -40,10 +41,24 @@
             }
         })
     }
-
+    
     Custom.prototype.accordion = function() {
-       
+        var btn = $('.accordion-item .btn-trigger');
+        console.log(btn)
+        btn.on('click', function(e) {
+            e.preventDefault();
+            var item = $(this).closest('.accordion-item');
+            if(item.hasClass('active')) {
+                item.removeClass('active');
+                item.find('.accordion-content').slideUp(300);  
+            } else {
+                item.addClass('active');
+                item.find('.accordion-content').slideDown(300);  
+            }
+        })
+
     }
+
 
 
 
