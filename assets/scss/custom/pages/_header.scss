@@ -54,6 +54,15 @@ header {
         display:flex;
         align-items: center;
         justify-content: flex-end;
+        position:relative;
+        // &:after {
+        //     content:'';
+        //     position:absolute;
+        //     border-bottom: 1px solid #E11837;
+        //     right:-100vw;
+        //     bottom:0;
+        //     width:100vw;
+        // }
         ul {
             li {
                 a {
