@@ -10469,6 +10469,11 @@ body .main {
     font-size: 16px;
   }
 }
+@media screen and (max-width: 767px) {
+  body .main {
+    font-size: 16px;
+  }
+}
 
 .section {
   position: relative;
@@ -10484,6 +10489,16 @@ h1 {
   font-size: 3em;
   line-height: 1.2;
   font-weight: 700;
+}
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 2px;
+    text-align: left;
+  }
 }
 
 h2 {
@@ -10508,6 +10523,7 @@ p {
   font-size: 1em;
   line-height: 1.3;
   font-weight: 300;
+  margin-bottom: 0.5em;
 }
 
 b, strong {
@@ -10654,6 +10670,11 @@ header {
   position: relative;
   border-bottom: 1px solid #E11837;
 }
+@media screen and (max-width: 767px) {
+  header {
+    height: 3.375em;
+  }
+}
 header .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10670,12 +10691,49 @@ header .logo-wrap {
   padding-top: 2.1875em;
   padding-left: 2.0625em;
 }
+@media screen and (max-width: 767px) {
+  header .logo-wrap {
+    padding-top: 1em;
+    padding-left: 0.125em;
+  }
+}
 header .logo-wrap a {
   display: block;
   width: 10.375em;
 }
+@media screen and (max-width: 767px) {
+  header .logo-wrap a {
+    width: 6.1875em;
+  }
+}
 header .logo-wrap a img {
   width: 100%;
+}
+@media screen and (max-width: 767px) {
+  header .navigation {
+    display: none;
+  }
+}
+header .mobile-navigation {
+  display: none;
+  height: 3.375em;
+}
+@media screen and (max-width: 767px) {
+  header .mobile-navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+header .mobile-navigation a {
+  display: block;
+  margin-left: 2.1875em;
 }
 header ul {
   display: -webkit-box;
@@ -10708,9 +10766,40 @@ header ul li a {
   font-size: 0.875em;
   font-weight: 600;
   height: 100%;
+  white-space: nowrap;
 }
 header ul li a span {
   margin-right: 0.625em;
+}
+header ul li a span.icon-ceda {
+  max-width: 0.6875em;
+  width: 100%;
+}
+header ul li a span.icon-ceda img {
+  width: 100%;
+}
+header ul li a span.icon-avatar {
+  max-width: 0.8125em;
+  height: 1.1875em;
+  width: 100%;
+}
+header ul li a span.icon-avatar img {
+  width: 100%;
+  height: 100%;
+}
+header ul li a span.icon-support {
+  max-width: 1em;
+  width: 100%;
+}
+header ul li a span.icon-support img {
+  width: 100%;
+}
+header ul li a span.icon-phone {
+  max-width: 0.5em;
+  width: 100%;
+}
+header ul li a span.icon-phone img {
+  width: 100%;
 }
 header ul li a:hover {
   text-decoration: none;
@@ -10728,6 +10817,14 @@ header .top-nav {
       -ms-flex-pack: end;
           justify-content: flex-end;
   position: relative;
+}
+header .top-nav:after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #E11837;
+  right: -100vw;
+  bottom: 0;
+  width: 100vw;
 }
 header .top-nav ul li a {
   padding: 0 1.1875em;
@@ -10770,6 +10867,10 @@ header .menu ul li a:hover {
 header .menu ul li a:hover .search-fill {
   fill: #E11837;
 }
+header .menu ul li a.btn-search svg {
+  width: 1.5em;
+  height: 1.5em;
+}
 
 .hero-banner {
   margin-top: 4.375em;
@@ -10789,15 +10890,33 @@ header .menu ul li a:hover .search-fill {
   background: linear-gradient(225.1deg, #252932 29.16%, #050D1D 91.21%);
   position: relative;
 }
+@media screen and (max-width: 767px) {
+  .hero-banner {
+    margin-top: 0;
+  }
+}
 .hero-banner:after {
   content: "";
   display: block;
   width: 11.375em;
   height: 100%;
   background: url("../img/pattern-1.svg") no-repeat 8px center/cover;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+@media screen and (max-width: 767px) {
+  .hero-banner:after {
+    display: none;
+  }
 }
 .hero-banner .container {
   max-width: 68.75em;
+}
+@media screen and (max-width: 767px) {
+  .hero-banner .container {
+    max-width: auto;
+  }
 }
 .hero-banner h1 {
   letter-spacing: 0.177em;
@@ -10810,13 +10929,28 @@ header .menu ul li a:hover .search-fill {
   font-weight: 300;
   margin-bottom: 0;
 }
+@media screen and (max-width: 767px) {
+  .hero-banner p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+}
 
 .section-content {
-  padding-top: 100px;
+  padding-top: 6.25em;
   color: #0D0D0D;
 }
+@media screen and (max-width: 767px) {
+  .section-content {
+    padding-top: 2.125em;
+  }
+}
 .section-content .container {
-  max-width: 744px;
+  max-width: 46.5em;
 }
 .section-content p {
   margin-bottom: 0.5em;
@@ -10850,11 +10984,22 @@ header .menu ul li a:hover .search-fill {
 .section-divider {
   padding: 2.5em 1.25em;
 }
+@media screen and (max-width: 767px) {
+  .section-divider {
+    padding: 1.5em 0em 2.125em;
+  }
+}
 .section-divider .divider-pattern {
   max-width: 58.625em;
   width: 100%;
   height: 6.125em;
   background: url("../img/pattern-6.svg") no-repeat left center/100% auto;
+}
+@media screen and (max-width: 767px) {
+  .section-divider .divider-pattern {
+    background: url("../img/pattern-7.svg") no-repeat left center/auto 100%;
+    max-width: 7.9375em;
+  }
 }
 
 .section-about {
@@ -10883,11 +11028,23 @@ header .menu ul li a:hover .search-fill {
   padding: 0 1.875em;
   margin: 0 !important;
 }
+@media screen and (max-width: 767px) {
+  .section-about .item {
+    padding: 0;
+  }
+}
 .section-about .about-card {
   background-color: #E11837;
   padding: 1.5625em 1.875em 1.875em;
   width: 22.125em;
   height: 20.8125em;
+}
+@media screen and (max-width: 767px) {
+  .section-about .about-card {
+    padding: 1em 1.125em 1.5625em;
+    width: 100%;
+    height: 19.5625em;
+  }
 }
 .section-about .about-card .category {
   font-size: 0.875em;
@@ -10895,6 +11052,16 @@ header .menu ul li a:hover .search-fill {
   font-weight: 400;
   color: #fff;
   text-transform: uppercase;
+}
+@media screen and (max-width: 767px) {
+  .section-about .about-card .category {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.0012em;
+    text-align: left;
+  }
 }
 .section-about .about-card .title {
   font-size: 2.1875em;
@@ -10904,12 +11071,32 @@ header .menu ul li a:hover .search-fill {
   letter-spacing: 0.12px;
   margin-bottom: 0.4285714286em;
 }
+@media screen and (max-width: 767px) {
+  .section-about .about-card .title {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.1199999973px;
+    text-align: left;
+  }
+}
 .section-about .about-card .desc {
   font-size: 1em;
   font-weight: 300;
   line-height: 1.3;
   color: #fff;
   margin-bottom: 1.875em;
+}
+@media screen and (max-width: 767px) {
+  .section-about .about-card .desc {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
 }
 .section-about .about-card .divider {
   height: 2px;
@@ -11287,7 +11474,7 @@ footer .twitter-feed .feed-content {
 }
 footer .twitter-feed .feed-content p {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 0.75em;
   line-height: 1.25;
   letter-spacing: 0.12px;
 }

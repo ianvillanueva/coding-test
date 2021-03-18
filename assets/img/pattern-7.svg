@@ -1,0 +1,30 @@
+<svg width="127" height="98" viewBox="0 0 127 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="121.5" cy="5.5" r="5.5" fill="#0D0D0D"/>
+<circle cx="121.5" cy="63.5" r="5.5" fill="#0D0D0D"/>
+<circle cx="121.5" cy="34.5" r="5.5" fill="#0D0D0D"/>
+<circle cx="121.5" cy="92.5" r="5.5" fill="#0D0D0D"/>
+<g opacity="0.8">
+<circle cx="92.5" cy="5.5" r="5.5" fill="#0D0D0D"/>
+<circle cx="92.5" cy="63.5" r="5.5" fill="#0D0D0D"/>
+<circle cx="92.5" cy="34.5" r="5.5" fill="#0D0D0D"/>
+<circle cx="92.5" cy="92.5" r="5.5" fill="#0D0D0D"/>
+</g>
+<g opacity="0.5">
+<circle cx="63.5" cy="5.5" r="5.5" fill="#0D0D0D"/>
+<circle cx="63.5" cy="63.5" r="5.5" fill="#0D0D0D"/>
+<circle cx="63.5" cy="34.5" r="5.5" fill="#0D0D0D"/>
+<circle cx="63.5" cy="92.5" r="5.5" fill="#0D0D0D"/>
+</g>
+<g opacity="0.25">
+<circle cx="34.5" cy="5.5" r="5.5" fill="#0D0D0D"/>
+<circle cx="34.5" cy="63.5" r="5.5" fill="#0D0D0D"/>
+<circle cx="34.5" cy="34.5" r="5.5" fill="#0D0D0D"/>
+<circle cx="34.5" cy="92.5" r="5.5" fill="#0D0D0D"/>
+</g>
+<g opacity="0.1">
+<circle cx="5.5" cy="5.5" r="5.5" fill="#0D0D0D"/>
+<circle cx="5.5" cy="63.5" r="5.5" fill="#0D0D0D"/>
+<circle cx="5.5" cy="34.5" r="5.5" fill="#0D0D0D"/>
+<circle cx="5.5" cy="92.5" r="5.5" fill="#0D0D0D"/>
+</g>
+</svg>

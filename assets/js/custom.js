@@ -23,14 +23,13 @@
     }
 
     Custom.prototype.carousel = function() {
-        $('.owl-carousel').owlCarousel({
-            stagePadding: 15,
+        var owl = $('.owl-carousel');
+       if( $(window).width() < 768) {
+        owl.owlCarousel({
+            stagePadding: 30,
             loop:false,
             margin:10,
             nav:false,
-            autoWidth:true,
-            mouseDrag:false,
-			touchDrag:false,
             responsive:{
                 0:{
                     items:1
@@ -40,6 +39,7 @@
                 }
             }
         })
+       }
     }
     
     Custom.prototype.accordion = function() {
