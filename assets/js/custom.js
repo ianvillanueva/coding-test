@@ -22,7 +22,23 @@
     }
 
     Custom.prototype.carousel = function() {
-       
+        $('.owl-carousel').owlCarousel({
+            stagePadding: 15,
+            loop:false,
+            margin:10,
+            nav:false,
+            autoWidth:true,
+            mouseDrag:false,
+			touchDrag:false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                768:{
+                    items:3
+                }
+            }
+        })
     }
 
     Custom.prototype.accordion = function() {
