@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Link Download</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About" transform="translate(-854.000000, -1681.000000)">
+            <g id="Desktop/Content-Block-Resources" transform="translate(54.000000, 1511.000000)">
+                <g id="Desktop/Resource-Download" transform="translate(790.000000, 160.000000)">
+                    <g id="Icon/Link-Download" transform="translate(10.000001, 10.000000)">
+                        <path d="M-7.22148314e-07,0 L23.9999993,0 L23.9999993,24 L-7.22148314e-07,24 L-7.22148314e-07,0 Z" id="Rectangle-546" fill-opacity="0" fill="#FFFFFF"></path>
+                        <g id="Group" transform="translate(5.000000, 4.000000)" fill="#252932" fill-rule="nonzero">
+                            <path d="M12.0707121,7.87860298 L8.12903214,11.9896564 L8.12903214,1.17187452 C8.12903214,0.524648249 7.62356484,-9.37916411e-13 7,-9.37916411e-13 C6.37643516,-9.37916411e-13 5.87096739,0.524648249 5.87096739,1.17187452 L5.87096739,11.9897156 L1.9292872,7.87854576 C1.489416,7.41981551 0.774568945,7.41805625 0.332609028,7.87461853 C-0.109407336,8.33123943 -0.111044049,9.07321212 0.328770697,9.53194237 L6.19974184,15.6552219 L6.20081425,15.6562767 C6.64068544,16.1138351 7.35784727,16.1153005 7.79918623,15.6563358 L7.80025768,15.6552792 L13.6712294,9.5320015 C14.1109877,9.07332981 14.1094636,8.33129856 13.6673908,7.87467766 C13.2254309,7.41811538 12.5105833,7.41987273 12.0707121,7.87860298 Z" id="Vector" transform="translate(7.000000, 8.000001) rotate(-0.000000) translate(-7.000000, -8.000001) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
