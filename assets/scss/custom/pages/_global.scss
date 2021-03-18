@@ -18,8 +18,13 @@ body {
     background-color:#fff;
     
     .main {
-        // font-size: 1.111vw;
-        font-size: 16px;
+        font-size: 1.111vw;
+        // font-size: 16px;
+
+        @media screen and (min-width:1600px) {
+            font-size: 16px;
+        }
+            
     }
     
 }
@@ -83,4 +88,113 @@ a,img,button,input{
 
 .gradient-2 {
     background: linear-gradient(225deg, #E11837 0%, #B30E27 100%);
+}
+.column-checkbox {
+    max-width:em(300);
+    width:100%;
+}
+
+.chkbox {
+    position: absolute; // take it out of document flow
+    opacity: 0; // hide it
+    
+    & + label {
+      position: relative;
+      cursor: pointer;
+      padding: 0;
+      margin:0;
+      font-size:em(10);
+      line-height:1.35;
+      letter-spacing: 0.12px;
+      font-weight:400;
+      color:#fff;
+      padding-left:em(74, 10);
+    }
+  
+    // Box.
+    & + label:before {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      position:absolute;
+      top:0;
+      left:0;
+      width: em(37, 10);
+      height: em(37, 10);
+      background: white;
+      transition:0.3s ease;
+    }
+  
+    &:hover + label:before {
+      background: #E11837;
+    }
+    
+    &:focus + label:before {
+      box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+    }
+  
+    &:checked + label:before {
+      background: #E11837;
+    }
+  
+    &:checked + label:after {
+      content: '';
+      position: absolute;
+      left: 5px;
+      top: 9px;
+      background: white;
+      width: 2px;
+      height: 2px;
+      box-shadow: 
+        2px 0 0 white,
+        4px 0 0 white,
+        4px -2px 0 white,
+        4px -4px 0 white,
+        4px -6px 0 white,
+        4px -8px 0 white;
+      transform: rotate(45deg);
+    }
+  }
+.column-field {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input-field {
+    width:100%;
+    display:block;
+    margin-bottom:em(5);
+    
+    &.col-field {
+        max-width:em(306);
+        display:block;
+    }
+    input {
+        outline: none;
+        border:0;
+        border-bottom:2px solid #fff;
+        background-color:transparent;
+        color:#fff;
+        width:100%;
+        height:em(50);
+        padding-left:em(10);
+
+        &::-webkit-input-placeholder { 
+            color: #fff;
+            font-style: italic;
+            font-weight:300;
+        }
+        
+        &:-ms-input-placeholder { 
+            color: #fff;
+            font-style: italic;
+            font-weight:300;
+        }
+        
+        &::placeholder {
+            color: #fff;
+            font-style: italic;
+            font-weight:300;
+        }
+    }
 }
