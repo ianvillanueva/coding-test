@@ -63,12 +63,29 @@ h2 {
     font-size:em(44);
     line-height:1.18;
     font-weight:300;
+    @media screen and (max-width:767px) {
+        font-size: 33px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0.11999999731779099px;
+        text-align: left;
+    }
 }
 
 h3 {
     font-size:em(35);
     line-height:1.2;
     font-weight:300;
+
+    @media screen and (max-width:767px) {
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.11999999731779099px;
+        text-align: left;
+    }
 }
 
 h4 {
@@ -106,6 +123,9 @@ a,img,button,input{
 .column-checkbox {
     max-width:em(300);
     width:100%;
+    @media screen and (max-width:767px) {
+        max-width:initial;
+    }
 }
 
 .chkbox {
@@ -123,6 +143,11 @@ a,img,button,input{
       font-weight:400;
       color:#fff;
       padding-left:em(74, 10);
+        @media screen and (max-width:767px) {
+            min-height:37px;
+            padding-top:5px;
+        }
+
     }
   
     // Box.
@@ -173,6 +198,9 @@ a,img,button,input{
     display:flex;
     align-items: center;
     justify-content: space-between;
+    @media screen and (max-width:767px) {
+        flex-direction: column;
+    }
 }
 .input-field {
     width:100%;
@@ -182,6 +210,9 @@ a,img,button,input{
     &.col-field {
         max-width:em(306);
         display:block;
+        @media screen and (max-width:767px) {
+            max-width:initial;
+        }
     }
     input {
         outline: none;
