@@ -113,6 +113,11 @@ a,img,button,input{
 	}
 }
 
+.animated-child {
+    opacity:0;
+    transform:translateY(25px);
+}
+
 .gradient-1 {
     background: linear-gradient(225.1deg, #252932 29.16%, #050D1D 91.21%);
 }
